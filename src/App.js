@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import NavBar from './components/NavBar'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
@@ -8,6 +9,8 @@ import './App.css';
 
 function App() {
   return (
+   <main>
+    <NavBar />
     <Routes>
       <Route 
           path='/about' 
@@ -30,6 +33,7 @@ function App() {
           element={<Resume />} 
         />
     </Routes>
+    </main>
   );
 }
 
