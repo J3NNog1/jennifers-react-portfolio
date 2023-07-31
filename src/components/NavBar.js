@@ -7,7 +7,7 @@ function NavBar() {
             <Link 
                 to='/'
             >
-                Jennifer Juarez
+                Home Page 
             </Link>
 
             <ul>

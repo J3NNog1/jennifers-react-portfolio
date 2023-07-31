@@ -6,6 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profileImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
