@@ -5,7 +5,7 @@ import Page2 from '../assets/resumepg2.png'
 function Resume() {
     return (
         <main>
-            <h1>Jennifer's Resume</h1>
+            <h1>Jenn's Resume</h1>
             <img className='resumeImage' src={Page1} alt='resume-screenshot-1' />
             <img className='resumeImage' src={Page2} alt='resume-screenshot-2' />
             

@@ -6,7 +6,7 @@ function NavBar() {
         <nav>
             <li>
                     <Link
-                        to='/about'
+                        to='/'
                     >
                         Jennifer Juarez
                     </Link>
