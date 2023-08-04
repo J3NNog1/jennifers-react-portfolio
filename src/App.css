@@ -17,7 +17,13 @@
   height: 100%;
   object-fit: cover;
 }
-
+.resumeImage {
+  width: 300px;
+}
+.resumeImage img {
+  width: 300px;
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
